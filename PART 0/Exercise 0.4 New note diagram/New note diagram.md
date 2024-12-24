@@ -6,7 +6,7 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
-	Note right of browser: adds content in new_notes body to array notes on server
+	Note right of browser: adds content of new_note's body to array notes on server
     server-->>browser: URL redirect https://studies.cs.helsinki.fi/exampleapp/notes
     deactivate server
     
